@@ -102,22 +102,32 @@
   padding-bottom: 19px;
 }
 
-a {
-  text-decoration: none;
-  color: #9F9F9F;
-}
+
 
 .menu-bar {
-  font-size: 1.375rem;
-  color: #9F9F9F;
+  font-size: 1.15rem;
   margin-bottom: 30px;
+  color: #9F9F9F;
 }
 
-.active {
-  text-decoration: underline;
-  text-decoration-color: #475AFF;
-  color: #475AFF;
+.menu-bar button {
+  border: none;
+  background-color: transparent;
+  font-size: 1.15rem;
+  color: #9F9F9F;
+  cursor: pointer;
 }
+
+.menu-bar button:hover {
+  color: #7d7d7d;
+}
+
+.menu-bar .active,
+.menu-bar .active:hover {
+  color: #475AFF;
+  text-decoration: underline;
+}
+
 
 .pet-area {
   display: grid;

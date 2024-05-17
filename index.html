@@ -53,7 +53,8 @@
             </defs>
           </svg>
           <h3 class="about-page-title">Sunny Play</h3>
-          <p class="about-page-description">Our center is located in beautiful Miami, and it&apos;s currently 84°F at
+          <p class="about-page-description">Our center is located in beautiful Miami, and it&apos;s currently <span
+              class="js-temperature"></span>°F at
             our pet playground.</p>
         </div>
         <div class="about-page">
@@ -117,8 +118,9 @@
 
     <div class="pet-section">
       <h3 class="pet-section-title">Meet Our Friends</h3>
-      <p class="menu-bar">Show me: <a class="active" href="#">All Pets</a> <a href="#">Only dogs</a> <a href="#">Only
-          cats</a></p>
+      <p class="menu-bar">Show me: <button class="active" data-filter="all">All Pets</button> <button
+          data-filter="dog">Only dogs</button> <button data-filter="cat">Only
+          cats</button></p>
       <div class="pet-area">
         <div class="pet-grids">
           <div class="pet-description">
@@ -167,6 +169,7 @@
     </div>
   </div>
 
+  <script src="main.js"></script>
 </body>
 
 </html>
